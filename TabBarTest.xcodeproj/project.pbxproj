@@ -13,6 +13,9 @@
 		A290ABEE1F99E8BD000B6282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A290ABEC1F99E8BD000B6282 /* Main.storyboard */; };
 		A290ABF01F99E8BD000B6282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A290ABEF1F99E8BD000B6282 /* Assets.xcassets */; };
 		A290ABF31F99E8BD000B6282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A290ABF11F99E8BD000B6282 /* LaunchScreen.storyboard */; };
+		A290ABFB1F99F03C000B6282 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290ABFA1F99F03C000B6282 /* CustomTabBarController.swift */; };
+		A290ABFD1F99F069000B6282 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290ABFC1F99F069000B6282 /* CustomTabBar.swift */; };
+		A290ABFF1F9A10D1000B6282 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290ABFE1F9A10D1000B6282 /* CustomTabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A290ABEF1F99E8BD000B6282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A290ABF21F99E8BD000B6282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A290ABF41F99E8BD000B6282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A290ABFA1F99F03C000B6282 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		A290ABFC1F99F069000B6282 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A290ABFE1F9A10D1000B6282 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				A290ABEF1F99E8BD000B6282 /* Assets.xcassets */,
 				A290ABF11F99E8BD000B6282 /* LaunchScreen.storyboard */,
 				A290ABF41F99E8BD000B6282 /* Info.plist */,
+				A290ABFA1F99F03C000B6282 /* CustomTabBarController.swift */,
+				A290ABFC1F99F069000B6282 /* CustomTabBar.swift */,
+				A290ABFE1F9A10D1000B6282 /* CustomTabBarItem.swift */,
 			);
 			path = TabBarTest;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A290ABEB1F99E8BD000B6282 /* SecondViewController.swift in Sources */,
+				A290ABFF1F9A10D1000B6282 /* CustomTabBarItem.swift in Sources */,
+				A290ABFD1F99F069000B6282 /* CustomTabBar.swift in Sources */,
 				A290ABE71F99E8BD000B6282 /* AppDelegate.swift in Sources */,
+				A290ABFB1F99F03C000B6282 /* CustomTabBarController.swift in Sources */,
 				A290ABE91F99E8BD000B6282 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25E4235NZ7;
 				INFOPLIST_FILE = TabBarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.sjorsvanberkel.TabBarTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25E4235NZ7;
 				INFOPLIST_FILE = TabBarTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.sjorsvanberkel.TabBarTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
